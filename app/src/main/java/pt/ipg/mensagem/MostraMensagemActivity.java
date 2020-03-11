@@ -14,7 +14,7 @@ public class MostraMensagemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mostra_mensagem);
 
         Intent intent = getIntent();
-        String mensagem = intent.getStringExtra("MENSAGEM");
+        String mensagem = intent.getStringExtra("Mensagem");
 
         Toast.makeText(this, mensagem , Toast.LENGTH_SHORT).show();
 
